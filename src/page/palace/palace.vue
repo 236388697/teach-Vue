@@ -41,8 +41,8 @@
   	   			 	<h3 class="con-title-text">
   	   			 		去哪儿推荐
   	   			 	</h3>
-  	   			 </div>
-  	   			 <div class="con-ticket">
+  	   			 </div> 
+  	   			 <div class="con-ticket">       
                     <div class="con-ticket-item" v-for="item in recommendInfo" :key="item.id">
       	   			 	<h6 class="con-ticket-onedaytitle">
                             <!-- {{item.news}} -->
@@ -68,7 +68,9 @@
   	   			 </div>
                  <div class="con-ticket">
                     <div class="con-ticket-item" v-for="item in recommendInfo" :key="item.id">
-                       <!--  <h6 class="con-ticket-onedaytitle">{{item.news}}</h6> -->
+                        <h6 class="con-ticket-onedaytitle">
+                            <!-- {{item.news}} -->
+                        </h6>
                         <div class="con-ticket-onedaymore">
                             <span class="con-ticket-desctag">
                                 可订明日
@@ -122,6 +124,7 @@
 </template>
 <script>
 	export default{
+
      name: 'Palace',
 
     data () {
@@ -173,7 +176,7 @@
     }
   }
 </script>
-<style>
+<style scoped>
     .palace-box{
     	color: #212121;
     }
@@ -188,7 +191,6 @@
     .headerfigure{
     	box-sizing: border-box;
     	width: 100%;
-    	/*height: 1.8rem;*/
         overflow: hidden;
     	padding: .1rem .2rem 0 .2rem;
     }
@@ -361,21 +363,21 @@
         background-color: #e8e8e8;
      }
     .white{
-      background-color: #fff;
+        background-color: #fff;
     } 
     .con-ticket-group{
-      margin-top: 0.2rem;
+        margin-top: 0.2rem;
     }
     .con-ticket-group .cen-button{
-    width: 100%;
-    height: 1rem;
-    color: gray!important;
-    background-color: #fff;
-    font-size: 0.3rem;
-    line-height: 1rem;
-    text-align: center;
-    border-top: 1px solid #f5f5f5;
-    box-sizing: border-box;
+        width: 100%;
+        height: 1rem;
+        color: gray!important;
+        background-color: #fff;
+        font-size: 0.3rem;
+        line-height: 1rem;
+        text-align: center;
+        border-top: 1px solid #f5f5f5;
+        box-sizing: border-box;
    }
     
      
