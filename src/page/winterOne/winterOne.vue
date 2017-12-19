@@ -42,10 +42,8 @@
 </keep-alive>
 </template>
 <script>
-export default {
-
-  name: 'winterOne',
-
+  export default {
+    name: 'winterOne'
   }
 </script>
 <style scoped>
