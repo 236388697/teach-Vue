@@ -2,20 +2,26 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/page/index/index'
 import Palace from '@/page/palace/palace'
+import WinterOne from '@/page/winterOne/winterOne'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/', 
       name: 'index',
       component: Index
     },
     {
       path: '/palace',
-      name: 'Palace',
+      name: 'palace',
       component: Palace
+    },
+    {
+      path: '/winterOne',
+      name: 'winterOne',
+      component: WinterOne
     }
   ]
 })

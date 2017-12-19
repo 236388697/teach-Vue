@@ -405,8 +405,6 @@
     .footer-top li{
       display: inline-block;
       width: 18%;
-      /*text-align: center;*/
-      
     }
     .footer-bottom li{
       float: left;
