@@ -327,7 +327,6 @@ export default {
       dayTourInfo: [],
       userappraiseInfo: [],
       centerlistsInfo: []
-
     }
   },
 
